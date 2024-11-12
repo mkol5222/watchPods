@@ -1,0 +1,14 @@
+{
+  "name": "watchpods",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.22.2"
+  }
+}
