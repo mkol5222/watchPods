@@ -174,3 +174,8 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 watchPods
+admin2.key
+admin2.csr
+admin2.crt
+ca.crt
+newuser.kubeconfig
