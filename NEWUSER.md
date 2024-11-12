@@ -51,3 +51,5 @@ kubectl create clusterrolebinding ${USER_NAME}-admin-binding \
 kubectl --kubeconfig=${KUBE_CONFIG} get pods -A
 
 ./watchPods
+# or
+KUBECONFIG=./newuser.kubeconfig ./watchPods 
